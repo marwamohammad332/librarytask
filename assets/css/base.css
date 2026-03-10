@@ -433,10 +433,10 @@ flex-direction:column-reverse;
 font-size:clamp(15px, 2vw, 20px);
 }
 .fsize-l{
-    font-size: clamp(20px, 2vw, 32px);
+    font-size: clamp(17px, 5vw, 32px);
 }
-.fsize-Xl{
-    font-size:clamp(25px, 2vw, 48px) ;
+.fsize-xl{
+    font-size:clamp(18px, 5vw, 48px) ;
 }
 .t_transformer{
     text-transform:uppercase;
@@ -527,6 +527,9 @@ background-color: var(--primarycolor);
 }
 .w-50{
     width: 50%;
+}
+.w-40{
+    width: 40%;
 }
 .w-25{
     width: 25%;

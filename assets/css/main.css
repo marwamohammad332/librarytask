@@ -2,7 +2,6 @@
     z-index: 9;
     box-shadow: 0 0 10px 4px #6c757db6;
 }
-
 @media screen and ( min-width:0 ) and ( max-width:500px ) {
     .list_icon{
         display: flex;
@@ -19,4 +18,32 @@
         gap:8px;
     }
 }
-
+.hero{
+    min-height: 100vh;
+}
+.hero-bg{
+    min-height: 100vh;
+    background:linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(./../img/bg-hero.jpg);;
+}
+.hero-text{
+    min-height: 100%;
+}
+.divider{
+    height: 3px;
+    width: 30px;
+    opacity: 1;
+    border: none;
+}
+.hero a{
+    border-radius: 40px;
+}
+@media screen and ( min-width:0 ) and ( max-width:500px ) {
+    .w-40{
+        width: 70%;
+    }
+}
+@media screen and ( min-width:501px ) and ( max-width:800px ){
+   .w-40{
+        width: 60%;
+    } 
+}
