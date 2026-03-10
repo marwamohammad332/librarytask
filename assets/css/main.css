@@ -12,10 +12,15 @@
 }
 @media screen and ( min-width:501px ) and ( max-width:800px ) {
     .continer{
-        width: calc( 100% - (12% * 2));
+        width: calc( 100% - (10% * 2));
     }
     .header nav{
         gap:8px;
+    }
+}
+@media screen and ( min-width:801px ) and ( max-width:950px ) {
+    .continer{
+        width: calc( 100% - (12% * 2));
     }
 }
 .hero{
@@ -52,4 +57,27 @@
 }
 .about a{
     border-radius: 40px;
+}
+.service{
+    min-height: 50vh
+}
+.service p{
+    min-height: 60px;
+}
+@media screen and ( min-width:0 ) and ( max-width:500px ){
+    .service .grid-temp-1{
+    grid-template-columns: repeat(1 , minmax( 150px , 1fr ));
+
+    }
+}
+@media screen and ( min-width:501px ) and ( max-width:800px ){
+    .service .grid-temp-1{
+    grid-template-columns: repeat(2 , minmax( 150px , 1fr ));
+
+    }
+}
+@media screen and ( min-width:801px ){
+.service .grid-temp-1{
+    grid-template-columns: repeat(4, minmax( 150px , 1fr ));
+}
 }
