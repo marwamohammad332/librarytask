@@ -2,38 +2,21 @@
     z-index: 9;
     box-shadow: 0 0 10px 4px #6c757db6;
 }
-.hero{
-    min-height: 100vh;
+
+@media screen and ( min-width:0 ) and ( max-width:500px ) {
+    .list_icon{
+        display: flex;
+    }
+    .header nav{
+        display: none;
+    }
 }
-.hero-bg{
-    min-height: 100vh;
-    background:linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(./../img/bg-hero.jpg);;
+@media screen and ( min-width:501px ) and ( max-width:800px ) {
+    .continer{
+        width: calc( 100% - (12% * 2));
+    }
+    .header nav{
+        gap:8px;
+    }
 }
-.hero-text{
-    min-height: 100%;
-}
-.divider{
-    height: 3px;
-    width: 30px;
-    opacity: 1;
-    border: none;
-}
-.hero a{
-    border-radius: 40px;
-}
-.about{
-    height: 50vh;
-}
-.about a{
-    border-radius: 40px;
-}
-.service{
-    min-height: 100vh
-}
-.service p{
-    min-height: 60px;
-}
-.project_img{
-    width: calc( 100% / 3);
-    display: block;
-}
+

@@ -21,7 +21,7 @@ html{
     --color-teal:#008080;
 }
 .continer{
-    width:calc( 100% - (13.4% * 2));/* 165px = 13.4% */
+    width:calc( 100% - (20% * 2));
     margin: 0 auto;
 
 }
@@ -424,19 +424,19 @@ flex-direction:column-reverse;
     margin-left:calc( var(--spacer) * 5 );
 }
 .fsize-xs{
-    font-size:clap(9px, 2vw, 12px);
+    font-size:clamp(9px, 2vw, 12px);
 }
 .fsize-s{
-    font-size: clap(12px, 2vw, 16px);
+    font-size: clamp(12px, 2vw, 16px);
 }
 .fsize-mid{
-font-size:clap(15px, 2vw, 20px);
+font-size:clamp(15px, 2vw, 20px);
 }
 .fsize-l{
-    font-size: clap(20px, 2vw, 32px);
+    font-size: clamp(20px, 2vw, 32px);
 }
 .fsize-Xl{
-    font-size:clap(25px, 2vw, 48px) ;
+    font-size:clamp(25px, 2vw, 48px) ;
 }
 .t_transformer{
     text-transform:uppercase;
