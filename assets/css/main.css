@@ -39,9 +39,6 @@
     opacity: 1;
     border: none;
 }
-.hero a{
-    border-radius: 40px;
-}
 @media screen and ( min-width:0 ) and ( max-width:500px ) {
     .w-40{
         width: 70%;
@@ -54,9 +51,6 @@
 }
 .about{
     height: 50vh;
-}
-.about a{
-    border-radius: 40px;
 }
 .service{
     min-height: 50vh
@@ -153,4 +147,7 @@ max-width: 100%;
 display: block;
 max-width: 100%;
 }
+}
+.download{
+    min-height: 35vh;
 }
