@@ -41,7 +41,7 @@ input{
     border: none;
 }
 .border_non{
-border: none;
+    border: none;
 }
 .border-rad-1{
     border-radius: 10px;
@@ -555,26 +555,63 @@ background-color: var(--primarycolor);
 .bg-teal{
     background-color:var(--color-teal);
 }
-.h-min-100{
+
+.min-h-100{
+    min-height: 100%;
+}
+.min-h-80{
+    min-height: 80%;
+}
+.min-h-70{
+    min-height:70%;
+}
+.min-h-60{
+    min-height: 60%;
+}
+.min-h-50{
+    min-height:50%;
+}
+.min-h-40{
+    min-height: 40%;
+}
+.min-h-30{
+    min-height: 30%;
+}
+.min-h-20{
+    min-height: 20%;
+}
+.min-h-10{
+    min-height: 10%;
+}
+.vh-min-100{
     min-height: 100vh;
 }
-.h-min-75{
+.vh-min-75{
     min-height: 75vh;
 }
-.h-min-50{
+.vh-min-50{
     min-height: 50vh;
 }
-.h-min-35{
+.vh-min-35{
     min-height: 35vh;
 }
-.h-min-25{
+.vh-min-25{
     min-height: 25vh;
 }
 .w-100{
     width: 100%;
 }
+.w-80{
+    width: 80%;
+}
+.w-70{
+    width: 70%;
+}
 .w-75{
     width: 75%;
+}
+.w-60{
+    width: 60%;
 }
 .w-50{
     width: 50%;
@@ -596,6 +633,21 @@ background-color: var(--primarycolor);
 }
 .pos-rel{
     position:relative ;
+}
+.index9{
+    z-index: 9;
+}
+.index4{
+    z-index:4 ;
+}
+.index3{
+    z-index: 3;
+}
+.index2{
+    z-index: 2;
+}
+.index1{
+    z-index: 1;
 }
 .card{
     display: flex;
