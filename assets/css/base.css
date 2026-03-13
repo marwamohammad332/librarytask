@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 html{
+    scroll-behavior: smooth;
     --spacer: 5px;
     --fontfamily-inter: "Inter", sans-serif; 
     --fontfamily-garamond:"EB Garamond", serif;
