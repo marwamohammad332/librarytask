@@ -8,9 +8,6 @@
     background-color: #888;
     border-radius: 5px;
 }
-.header{
-    box-shadow: 0 0 10px 4px #6c757db6;
-}
 @media screen and ( min-width:0 ) and ( max-width:500px ) {
     .list_icon{
         display: flex;
@@ -21,7 +18,7 @@
 }
 @media screen and ( min-width:501px ) and ( max-width:800px ) {
     .continer{
-        width: calc( 100% - (10% * 2));
+        width:80%;
     }
     .header nav{
         gap:8px;
@@ -29,7 +26,7 @@
 }
 @media screen and ( min-width:801px ) and ( max-width:950px ) {
     .continer{
-        width: calc( 100% - (12% * 2));
+        width: 75%;
     }
 }
 .hero-bg{
@@ -40,14 +37,17 @@
     width: 30px;
 }
 @media screen and ( min-width:0 ) and ( max-width:500px ) {
-    .w-40{
+    .text{
         width: 70%;
     }
 }
 @media screen and ( min-width:501px ) and ( max-width:800px ){
-   .w-40{
+   .text{
         width: 60%;
     } 
+}
+.project_img:hover .hovertext{
+    opacity: 0.7;
 }
 @media screen and ( min-width:0 ) and ( max-width:500px ){
     .service .grid-temp-1{
@@ -65,9 +65,6 @@
 .service .grid-temp-1{
     grid-template-columns: repeat(4, minmax( 150px , 1fr ));
 }
-}
-.portfolio_row{
-    grid-template-columns: repeat(3,1fr );
 }
 @media screen and ( min-width:0 ) and ( max-width:300px ){
 .portfolio_continer{
