@@ -57,7 +57,7 @@
 }
 @media screen and ( min-width:501px ) and ( max-width:800px ){
     .service .grid-temp-1{
-    grid-template-columns: repeat(2 , minmax( 150px , 1fr ));
+    grid-template-columns: repeat(2 , 1fr );
 
     }
 }

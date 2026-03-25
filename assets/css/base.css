@@ -138,6 +138,9 @@ input {
 .d-flex {
     display: flex;
 }
+.flex{
+    flex: 1;
+}
 
 .gp-1 {
     gap: var(--spacer);
