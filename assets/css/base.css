@@ -1328,3 +1328,6 @@ input {
     gap: 10px;
     cursor: pointer;
 }
+.trans{
+    transition: all 1s;
+}
